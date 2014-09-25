@@ -1,24 +1,25 @@
 qt5_hello_world
 ===============
 
-drasko@Lenin:~/qt/hello$ mkdir build
-
-drasko@Lenin:~/qt/hello$ cd build/
-
-drasko@Lenin:~/qt/hello/build$ cmake ..
--- The C compiler identification is GNU 4.9.1
--- The CXX compiler identification is GNU 4.9.1
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Configuring done
--- Generating done
--- Build files have been written to: /home/drasko/qt/hello/build
+''' bash
+   drasko@Lenin:~/qt/hello$ mkdir build
+   
+   drasko@Lenin:~/qt/hello$ cd build/
+   
+   drasko@Lenin:~/qt/hello/build$ cmake ..
+   -- The C compiler identification is GNU 4.9.1
+   -- The CXX compiler identification is GNU 4.9.1
+   -- Check for working C compiler: /usr/bin/cc
+   -- Check for working C compiler: /usr/bin/cc -- works
+   -- Detecting C compiler ABI info
+   -- Detecting C compiler ABI info - done
+   -- Check for working CXX compiler: /usr/bin/c++
+   -- Check for working CXX compiler: /usr/bin/c++ -- works
+   -- Detecting CXX compiler ABI info
+   -- Detecting CXX compiler ABI info - done
+   -- Configuring done
+   -- Generating done
+   -- Build files have been written to: /home/drasko/qt/hello/build
 
 drasko@Lenin:~/qt/hello/build$ make VERBOSE=1
 /usr/bin/cmake -H/home/drasko/qt/hello -B/home/drasko/qt/hello/build --check-build-system CMakeFiles/Makefile.cmake 0
@@ -78,3 +79,4 @@ Created Hello class!
 Starting Hello daemon...
 ^C
 drasko@Lenin:~/qt/hello/build$ 
+'''
